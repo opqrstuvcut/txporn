@@ -6,9 +6,11 @@ txportn convert text to png image whose background is transparent.
 - Pillow 5.0.0
 
 # Install
-```$ git clone https://github.com/opqrstuvcut/txporn.git```
 
-```$ pip install Pillow```
+```
+$ git clone https://github.com/opqrstuvcut/txporn.git
+$ pip install Pillow
+```
 
 # Example
 ```$ ./txporn.py -t かつお -c red -o ./output/ -s 50``` 
