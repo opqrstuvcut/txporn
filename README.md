@@ -1,5 +1,5 @@
 # txporn
-txporn convert text to png image whose background is transparent.
+txporn converts text to png image whose background is transparent.
 
 # Requirement
 - Python 3
