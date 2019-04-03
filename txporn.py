@@ -26,7 +26,7 @@ def parse_argument():
     parser.add_argument("--font_size", "-s", help="font size", type=int, default=20)
     parser.add_argument("--color", "-c", help="text color(color name or color code, e.g. #ffffff)", default="black")
     parser.add_argument("--text_transparency", "-a", help="text transparency (0 ~ 1)", type=float, default=0)
-    parser.add_argument("--output_dir_path", "-o", help="output dirctory path", type=str, default=None)
+    parser.add_argument("--output_dir_path", "-o", help="output dirctory path", type=str, default="./")
     args = parser.parse_args()
     return args
 
